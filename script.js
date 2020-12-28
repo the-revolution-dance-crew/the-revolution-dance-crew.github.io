@@ -42,10 +42,18 @@ about.addEventListener('click', () => {
 })
 
 // scroll behaviour about
-const skills = document.querySelector('.nav-skills');
+// const skills = document.querySelector('.nav-skills');
 
-skills.addEventListener('click', () => {
-    document.querySelector('.skill-header').scrollIntoView({
-        behavior: 'smooth'
+// skills.addEventListener('click', () => {
+//     document.querySelector('.skill-header').scrollIntoView({
+//         behavior: 'smooth'
+//     })
+// })
+
+const test = document.querySelector('.land-button');
+
+test.addEventListener('click',() =>{
+    document.querySelector('.contact-header').scrollIntoView({
+        behavior:'smooth'
     })
 })
