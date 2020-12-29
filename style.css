@@ -23,6 +23,7 @@ body {
     min-height: 7vh;
     position: sticky;
     top: 0;
+    z-index:999;
 }
 
 .navbar-links ul {
@@ -246,6 +247,7 @@ i.fa-home {
     justify-content: center;
     min-width: 100%;
     min-height: 100vh;
+    z-index:-1;
 }
 
 .background {
