@@ -14,6 +14,11 @@ body {
 
 /*navbar */
 
+.brand-tittle img {
+    height: 45px;
+    width: 45px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
